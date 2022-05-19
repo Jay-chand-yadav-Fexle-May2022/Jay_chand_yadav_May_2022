@@ -26,6 +26,9 @@
         <center><button id="submit">Next</button></center>
 	<h3> it's a heading 3rd</h3>
 	<h4> it's a heading 4th</h4>
+	
+	<h1>it's a heading 1</h1>
+	<h2>it's a heading 2</h2>
     </div>
     </form>
 </body>
