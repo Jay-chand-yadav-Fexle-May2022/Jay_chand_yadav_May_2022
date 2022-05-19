@@ -24,7 +24,8 @@
          <input type="email" name="email" id="email" placeholder="Enter the email" required>
         </div>
         <center><button id="submit">Next</button></center>
-
+	<h3> it's a heading 3rd</h3>
+	<h4> it's a heading 4th</h4>
     </div>
     </form>
 </body>
