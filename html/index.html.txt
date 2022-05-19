@@ -25,6 +25,9 @@
         </div>
         <center><button id="submit">Next</button></center>
 
+	<h3>it's a heading 3</h3>
+	<h4> heading 4 </h4>
+
     </div>
     </form>
 </body>
