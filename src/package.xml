@@ -24,6 +24,10 @@
 	      <members>Operators</members>
         <members>Datatypes</members>
         <members>StudentRecord</members>
+		<members>CountryStateAndDistrict</members>
+        <members>DiscountOnProduct</members>
+        <members>SuperKeyword</members>
+        <members>ThisKeywordAndInstanceofKeyword</members>
 	      <name>ApexClass</name>
     </types>
     <types>
