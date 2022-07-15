@@ -185,9 +185,9 @@ public with sharing class PerformDMLandSOQLoperation {
 	Account accountObject = new Account(SLASerialNumber__c='SAP111113', Name='Mark');
         insert accountObject;
         Opportunity newOpportunity = new Opportunity(
-       	    Name = 'OpportunityWithAccountInsert',
-            StageName='Prospecting',
-            CloseDate=Date.today().addDays(7));
+       	Name = 'OpportunityWithAccountInsert',
+        StageName='Prospecting',
+        CloseDate=Date.today().addDays(7));
 
         // Create the parent record reference.
         // An account with external ID = 'SAP111111' already exists.
