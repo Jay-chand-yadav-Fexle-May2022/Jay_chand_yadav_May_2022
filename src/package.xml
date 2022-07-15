@@ -28,15 +28,16 @@
         <members>DiscountOnProduct</members>
         <members>SuperKeyword</members>
         <members>ThisKeywordAndInstanceofKeyword</members>
-	    <name>ApexClass</name>
-
-	<members>CallByValueAndReference</members>
+		<members>CallByValueAndReference</members>
         <members>Conditional</members>
         <members>Constructor</members>
         <members>Loops</members>
         <members>MethodOverLoading</members>
         <members>MethodOverRiding</members>
         <members>StudentDataProvider</members>
+		<members>PerformDMLandSOQLoperation</members>
+		<members>CountryStateJSONGenerator</members>
+        <members>CountryStatesDistrictsRecordUpdation</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -65,6 +66,9 @@
 		<members>Teacher1__c</members>
 		<members>Year_Of_Class__c</members>
 		<members>Book__c</members>
+		<members>Country__c</members>
+        <members>District__c</members>
+        <members>State__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -85,6 +89,9 @@
 		<members>Teacher1__c</members>
 		<members>Year_Of_Class__c</members>
 		<members>Book__c</members>
+		<members>Country__c</members>
+        <members>District__c</members>
+        <members>State__c</members>
         <name>CustomTab</name>
     </types>
     <types>
