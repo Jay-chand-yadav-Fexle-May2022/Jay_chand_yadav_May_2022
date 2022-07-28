@@ -18,7 +18,7 @@ public class AccountTriggerHandlerTests {
         listOfAccounts.add(new Account(Name = 'Account5', Type = 'FD',Email__c = 'testing4@fexle.com'));
         
         Test.startTest();
-        	insert listOfAccounts;
+            insert listOfAccounts;
         Test.stopTest();
         
         List<Account> acc = [SELECT Id, AccountNumber FROM Account WHERE Id IN:listOfAccounts ORDER BY Name];
@@ -34,7 +34,7 @@ public class AccountTriggerHandlerTests {
         listOfAccounts_1.add(new Account(Name = 'Account7', Type = 'FD', Email__c = 'testing6@test.com'));
         
         Test.startTest();
-        	insert listOfAccounts_1;
+            insert listOfAccounts_1;
         Test.stopTest();
 
        	System.assertEquals(1, Limits.getEmailInvocations(), 'Emails should be sent');      	  
