@@ -38,6 +38,8 @@
 	<members>PerformDMLandSOQLoperation</members>
 	<members>CountryStateJSONGenerator</members>
         <members>CountryStatesDistrictsRecordUpdation</members>
+		<members>AccountTriggerHandler</members>
+        <members>AccountTriggerHandlerTests</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -69,6 +71,7 @@
 	<members>Country__c</members>
         <members>District__c</members>
         <members>State__c</members>
+		<members>Account</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -107,7 +110,7 @@
         <name>PermissionSet</name>
     </types>
     <types>
-        <members>*</members>
+		<members>TriggerAccount</members>      
         <name>ApexTrigger</name>
     </types>
     <version>53.0</version>
