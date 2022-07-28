@@ -7,7 +7,7 @@ trigger TriggerAccount on Account (before insert, after insert) {
         }
         
         if(Trigger.isAfter) {
-        	AccountTriggerHandler.sendEmail(Trigger.New);
+            AccountTriggerHandler.sendEmail(Trigger.New);
     	}
     } 
 }
