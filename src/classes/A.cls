@@ -5,5 +5,6 @@ public with sharing class Test{
         System.debug('Hello, World');
         System.debug('Hello 1');
         System.debug('Hello 2');
+        System.debug('World 2');
     }
 }
