@@ -3,5 +3,6 @@ public with sharing class Test{
 
     public static void test(){
         System.debug('Hello, World');
+        System.debug('World1');
     }
 }
